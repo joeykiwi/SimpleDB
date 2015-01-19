@@ -1,4 +1,13 @@
+In database class, I created own database called SimpleDB which is added on basic frame work.
+
+The project helped to understand how database work, especially how 'Join' work in detail and 
+how the data is acquired from existing data table. (Resemble to the MySQL)
+
+--------------------------------------------------------------------------
 CS143 Lab3
+
+
+
 
 Jongwoo Kim 503-787-749
 ---------------------------------------
