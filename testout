@@ -1,0 +1,475 @@
+Apache Ant version 1.7.1 compiled on September 8 2010
+Buildfile: build.xml
+Adding reference: ant.PropertyHelper
+Detected Java version: 1.6 in: /usr/lib/jvm/java-6-openjdk/jre
+Detected OS: Linux
+Adding reference: ant.ComponentHelper
+Setting ro project property: ant.file -> /home/ydj1989/Downloads/simpleDB/build.xml
+Adding reference: ant.projectHelper
+Adding reference: ant.parsing.context
+Adding reference: ant.targets
+parsing buildfile /home/ydj1989/Downloads/simpleDB/build.xml with URI = file:/home/ydj1989/Downloads/simpleDB/build.xml
+Setting ro project property: ant.project.name -> simpledb
+Adding reference: simpledb
+Setting ro project property: ant.file.simpledb -> /home/ydj1989/Downloads/simpleDB/build.xml
+Project base dir set to: /home/ydj1989/Downloads/simpleDB
+ +Target: 
+ +Target: eclipse
+ +Target: compile
+ +Target: javadocs
+ +Target: dist
+ +Target: clean
+ +Target: testcompile
+ +Target: test
+ +Target: systemtest
+ +Target: runtest
+ +Target: runsystest
+ +Target: test-report
+ +Target: handin
+ +Target: test-and-handin
+[antlib:org.apache.tools.ant] Could not load definitions from resource org/apache/tools/ant/antlib.xml. It could not be found.
+Setting project property: src -> /home/ydj1989/Downloads/simpleDB/src
+Setting project property: testd -> /home/ydj1989/Downloads/simpleDB/test
+Setting project property: build -> /home/ydj1989/Downloads/simpleDB/bin
+Setting project property: build.src -> /home/ydj1989/Downloads/simpleDB/bin/src
+Setting project property: build.test -> /home/ydj1989/Downloads/simpleDB/bin/test
+Setting project property: depcache -> /home/ydj1989/Downloads/simpleDB/bin/depcache
+Setting project property: lib -> /home/ydj1989/Downloads/simpleDB/lib
+Setting project property: doc -> /home/ydj1989/Downloads/simpleDB/javadoc
+Setting project property: dist -> /home/ydj1989/Downloads/simpleDB/dist
+Setting project property: jarfile -> /home/ydj1989/Downloads/simpleDB/dist/simpledb.jar
+Setting project property: compile.debug -> true
+Setting project property: test.reports -> /home/ydj1989/Downloads/simpleDB/testreport
+Setting project property: sourceversion -> 1.6
+Adding reference: classpath.base
+Adding reference: classpath.test
+ +Datatype Compile org.apache.tools.ant.taskdefs.MacroInstance
+ [macrodef] creating macro  Compile
+ +Datatype RunJunit org.apache.tools.ant.taskdefs.MacroInstance
+ [macrodef] creating macro  RunJunit
+parsing buildfile jar:file:/home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml with URI = jar:file:/home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml
+Finding class net.sf.antcontrib.property.PropertyCopy
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/PropertyCopy.class
+Finding class net.sf.antcontrib.property.AbstractPropertySetterTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/AbstractPropertySetterTask.class
+Class org.apache.tools.ant.Task loaded from parent loader (parentFirst)
+Class net.sf.antcontrib.property.AbstractPropertySetterTask loaded from ant loader (parentFirst)
+Class net.sf.antcontrib.property.PropertyCopy loaded from ant loader (parentFirst)
+Class java.lang.Object loaded from parent loader (parentFirst)
+Class java.lang.Throwable loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.BuildException loaded from parent loader (parentFirst)
+ +Datatype propertycopy net.sf.antcontrib.property.PropertyCopy
+Finding class net.sf.antcontrib.platform.ShellScriptTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/platform/ShellScriptTask.class
+Class org.apache.tools.ant.taskdefs.ExecTask loaded from parent loader (parentFirst)
+Class net.sf.antcontrib.platform.ShellScriptTask loaded from ant loader (parentFirst)
+Class java.lang.Exception loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.util.FileUtils loaded from parent loader (parentFirst)
+ +Datatype shellscript net.sf.antcontrib.platform.ShellScriptTask
+Finding class net.sf.antcontrib.property.PathToFileSet
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/PathToFileSet.class
+Class net.sf.antcontrib.property.PathToFileSet loaded from ant loader (parentFirst)
+ +Datatype pathtofileset net.sf.antcontrib.property.PathToFileSet
+Finding class net.sf.antcontrib.logic.RunTargetTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/RunTargetTask.class
+Class net.sf.antcontrib.logic.RunTargetTask loaded from ant loader (parentFirst)
+ +Datatype runtarget net.sf.antcontrib.logic.RunTargetTask
+Finding class net.sf.antcontrib.antserver.client.ClientTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/antserver/client/ClientTask.class
+Class net.sf.antcontrib.antserver.client.ClientTask loaded from ant loader (parentFirst)
+Class java.io.IOException loaded from parent loader (parentFirst)
+Class javax.xml.parsers.ParserConfigurationException loaded from parent loader (parentFirst)
+Class org.xml.sax.SAXException loaded from parent loader (parentFirst)
+Class java.io.InputStream loaded from parent loader (parentFirst)
+Class java.io.ByteArrayInputStream loaded from parent loader (parentFirst)
+ +Datatype remoteant net.sf.antcontrib.antserver.client.ClientTask
+Finding class net.sf.antcontrib.property.RegexTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/RegexTask.class
+Class net.sf.antcontrib.property.RegexTask loaded from ant loader (parentFirst)
+ +Datatype propertyregex net.sf.antcontrib.property.RegexTask
+Finding class net.sf.antcontrib.logic.Assert
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/Assert.class
+Class org.apache.tools.ant.TaskContainer loaded from parent loader (parentFirst)
+Finding class net.sf.antcontrib.logic.condition.BooleanConditionBase
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/condition/BooleanConditionBase.class
+Class org.apache.tools.ant.taskdefs.condition.ConditionBase loaded from parent loader (parentFirst)
+Class net.sf.antcontrib.logic.condition.BooleanConditionBase loaded from ant loader (parentFirst)
+Class net.sf.antcontrib.logic.Assert loaded from ant loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.condition.Condition loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.Exit loaded from parent loader (parentFirst)
+Class java.util.List loaded from parent loader (parentFirst)
+Class java.lang.String loaded from parent loader (parentFirst)
+ +Datatype assert net.sf.antcontrib.logic.Assert
+Finding class net.sf.antcontrib.math.MathTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/math/MathTask.class
+Class org.apache.tools.ant.DynamicConfigurator loaded from parent loader (parentFirst)
+Class net.sf.antcontrib.math.MathTask loaded from ant loader (parentFirst)
+ +Datatype math net.sf.antcontrib.math.MathTask
+Finding class net.sf.antcontrib.logic.TryCatchTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/TryCatchTask.class
+Class net.sf.antcontrib.logic.TryCatchTask loaded from ant loader (parentFirst)
+Class java.lang.ClassNotFoundException loaded from parent loader (parentFirst)
+ +Datatype trycatch net.sf.antcontrib.logic.TryCatchTask
+Finding class net.sf.antcontrib.antserver.server.ServerTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/antserver/server/ServerTask.class
+Class net.sf.antcontrib.antserver.server.ServerTask loaded from ant loader (parentFirst)
+Class java.lang.InterruptedException loaded from parent loader (parentFirst)
+ +Datatype antserver net.sf.antcontrib.antserver.server.ServerTask
+Finding class net.sf.antcontrib.logic.AntCallBack
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/AntCallBack.class
+Class org.apache.tools.ant.taskdefs.Ant loaded from parent loader (parentFirst)
+Class net.sf.antcontrib.logic.AntCallBack loaded from ant loader (parentFirst)
+Class org.apache.tools.ant.Project loaded from parent loader (parentFirst)
+Finding class net.sf.antcontrib.logic.ProjectDelegate
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/ProjectDelegate.class
+Class net.sf.antcontrib.logic.ProjectDelegate loaded from ant loader (parentFirst)
+ +Datatype antcallback net.sf.antcontrib.logic.AntCallBack
+Finding class net.sf.antcontrib.walls.CompileWithWalls
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/walls/CompileWithWalls.class
+Class net.sf.antcontrib.walls.CompileWithWalls loaded from ant loader (parentFirst)
+Class java.util.Map loaded from parent loader (parentFirst)
+Class java.lang.RuntimeException loaded from parent loader (parentFirst)
+Class org.xml.sax.DocumentHandler loaded from parent loader (parentFirst)
+Class org.xml.sax.EntityResolver loaded from parent loader (parentFirst)
+Class org.xml.sax.ErrorHandler loaded from parent loader (parentFirst)
+Class org.xml.sax.DTDHandler loaded from parent loader (parentFirst)
+Finding class net.sf.antcontrib.walls.CompileWithWalls$ParsingWallsException
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/walls/CompileWithWalls$ParsingWallsException.class
+Class net.sf.antcontrib.walls.CompileWithWalls$ParsingWallsException loaded from ant loader (parentFirst)
+ +Datatype compilewithwalls net.sf.antcontrib.walls.CompileWithWalls
+Finding class net.sf.antcontrib.logic.OutOfDate
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/OutOfDate.class
+Class net.sf.antcontrib.logic.OutOfDate loaded from ant loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.Sequential loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.Parallel loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.types.Mapper loaded from parent loader (parentFirst)
+Finding class net.sf.antcontrib.logic.OutOfDate$MyMapper
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/OutOfDate$MyMapper.class
+Class net.sf.antcontrib.logic.OutOfDate$MyMapper loaded from ant loader (parentFirst)
+ +Datatype outofdate net.sf.antcontrib.logic.OutOfDate
+Finding class net.sf.antcontrib.platform.OsFamily
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/platform/OsFamily.class
+Class net.sf.antcontrib.platform.OsFamily loaded from ant loader (parentFirst)
+ +Datatype osfamily net.sf.antcontrib.platform.OsFamily
+Finding class net.sf.antcontrib.perf.StopWatchTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/perf/StopWatchTask.class
+Class net.sf.antcontrib.perf.StopWatchTask loaded from ant loader (parentFirst)
+ +Datatype stopwatch net.sf.antcontrib.perf.StopWatchTask
+Finding class net.sf.antcontrib.logic.Throw
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/Throw.class
+Class net.sf.antcontrib.logic.Throw loaded from ant loader (parentFirst)
+ +Datatype throw net.sf.antcontrib.logic.Throw
+Finding class net.sf.antcontrib.antclipse.ClassPathTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/antclipse/ClassPathTask.class
+Class net.sf.antcontrib.antclipse.ClassPathTask loaded from ant loader (parentFirst)
+Finding class net.sf.antcontrib.antclipse.ClassPathTask$PathCustomHandler
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/antclipse/ClassPathTask$PathCustomHandler.class
+Finding class net.sf.antcontrib.antclipse.ClassPathTask$AbstractCustomHandler
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/antclipse/ClassPathTask$AbstractCustomHandler.class
+Class org.xml.sax.HandlerBase loaded from parent loader (parentFirst)
+Class net.sf.antcontrib.antclipse.ClassPathTask$AbstractCustomHandler loaded from ant loader (parentFirst)
+Class net.sf.antcontrib.antclipse.ClassPathTask$PathCustomHandler loaded from ant loader (parentFirst)
+Finding class net.sf.antcontrib.antclipse.ClassPathTask$FileSetCustomHandler
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/antclipse/ClassPathTask$FileSetCustomHandler.class
+Class net.sf.antcontrib.antclipse.ClassPathTask$FileSetCustomHandler loaded from ant loader (parentFirst)
+Class org.apache.tools.ant.types.Path loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.types.FileSet loaded from parent loader (parentFirst)
+ +Datatype antclipse net.sf.antcontrib.antclipse.ClassPathTask
+Finding class net.sf.antcontrib.property.URLEncodeTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/URLEncodeTask.class
+Class net.sf.antcontrib.property.URLEncodeTask loaded from ant loader (parentFirst)
+ +Datatype urlencode net.sf.antcontrib.property.URLEncodeTask
+Finding class net.sf.antcontrib.logic.TimestampSelector
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/TimestampSelector.class
+Class net.sf.antcontrib.logic.TimestampSelector loaded from ant loader (parentFirst)
+ +Datatype timestampselector net.sf.antcontrib.logic.TimestampSelector
+Finding class net.sf.antcontrib.logic.ForEach
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/ForEach.class
+Class net.sf.antcontrib.logic.ForEach loaded from ant loader (parentFirst)
+Class java.lang.Runnable loaded from parent loader (parentFirst)
+Class java.lang.IllegalAccessError loaded from parent loader (parentFirst)
+ +Datatype foreach net.sf.antcontrib.logic.ForEach
+Finding class net.sf.antcontrib.logic.IfTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/IfTask.class
+Class net.sf.antcontrib.logic.IfTask loaded from ant loader (parentFirst)
+Finding class net.sf.antcontrib.logic.IfTask$ElseIf
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/IfTask$ElseIf.class
+Class net.sf.antcontrib.logic.IfTask$ElseIf loaded from ant loader (parentFirst)
+ +Datatype if net.sf.antcontrib.logic.IfTask
+Finding class net.sf.antcontrib.property.PropertySelector
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/PropertySelector.class
+Class net.sf.antcontrib.property.PropertySelector loaded from ant loader (parentFirst)
+ +Datatype propertyselector net.sf.antcontrib.property.PropertySelector
+Finding class net.sf.antcontrib.property.SortList
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/SortList.class
+Class net.sf.antcontrib.property.SortList loaded from ant loader (parentFirst)
+Class java.io.Reader loaded from parent loader (parentFirst)
+Class java.io.FileReader loaded from parent loader (parentFirst)
+ +Datatype sortlist net.sf.antcontrib.property.SortList
+Finding class net.sf.antcontrib.logic.AntFetch
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/AntFetch.class
+Class org.apache.tools.ant.taskdefs.CallTarget loaded from parent loader (parentFirst)
+Class net.sf.antcontrib.logic.AntFetch loaded from ant loader (parentFirst)
+ +Datatype antfetch net.sf.antcontrib.logic.AntFetch
+Finding class net.sf.antcontrib.net.PostTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/net/PostTask.class
+Class net.sf.antcontrib.net.PostTask loaded from ant loader (parentFirst)
+Class java.lang.Thread loaded from parent loader (parentFirst)
+Finding class net.sf.antcontrib.net.PostTask$1
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/net/PostTask$1.class
+Class net.sf.antcontrib.net.PostTask$1 loaded from ant loader (parentFirst)
+Finding class net.sf.antcontrib.net.PostTask$2
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/net/PostTask$2.class
+Class net.sf.antcontrib.net.PostTask$2 loaded from ant loader (parentFirst)
+Class java.util.Enumeration loaded from parent loader (parentFirst)
+Class java.io.FileInputStream loaded from parent loader (parentFirst)
+Class java.util.Hashtable loaded from parent loader (parentFirst)
+ +Datatype post net.sf.antcontrib.net.PostTask
+Finding class net.sf.antcontrib.process.ForgetTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/process/ForgetTask.class
+Class net.sf.antcontrib.process.ForgetTask loaded from ant loader (parentFirst)
+ +Datatype forget net.sf.antcontrib.process.ForgetTask
+Finding class net.sf.antcontrib.process.Limit
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/process/Limit.class
+Class net.sf.antcontrib.process.Limit loaded from ant loader (parentFirst)
+Finding class net.sf.antcontrib.process.Limit$1
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/process/Limit$1.class
+Class net.sf.antcontrib.process.Limit$1 loaded from ant loader (parentFirst)
+ +Datatype limit net.sf.antcontrib.process.Limit
+Finding class net.sf.antcontrib.logic.Switch
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/Switch.class
+Class net.sf.antcontrib.logic.Switch loaded from ant loader (parentFirst)
+Finding class net.sf.antcontrib.logic.Switch$Case
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/Switch$Case.class
+Class net.sf.antcontrib.logic.Switch$Case loaded from ant loader (parentFirst)
+ +Datatype switch net.sf.antcontrib.logic.Switch
+Finding class net.sf.antcontrib.logic.Relentless
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/logic/Relentless.class
+Class net.sf.antcontrib.logic.Relentless loaded from ant loader (parentFirst)
+ +Datatype relentless net.sf.antcontrib.logic.Relentless
+Finding class net.sf.antcontrib.property.Variable
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/property/Variable.class
+Class net.sf.antcontrib.property.Variable loaded from ant loader (parentFirst)
+Class java.lang.NoSuchFieldException loaded from parent loader (parentFirst)
+ +Datatype var net.sf.antcontrib.property.Variable
+Finding class net.sf.antcontrib.inifile.IniFileTask
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/inifile/IniFileTask.class
+Class net.sf.antcontrib.inifile.IniFileTask loaded from ant loader (parentFirst)
+Class java.io.Writer loaded from parent loader (parentFirst)
+Class java.io.FileWriter loaded from parent loader (parentFirst)
+ +Datatype inifile net.sf.antcontrib.inifile.IniFileTask
+Finding class net.sf.antcontrib.design.VerifyDesign
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/design/VerifyDesign.class
+Finding class net.sf.antcontrib.design.Log
+Loaded from /home/ydj1989/Downloads/simpleDB/lib/ant-contrib-1.0b3.jar net/sf/antcontrib/design/Log.class
+Class net.sf.antcontrib.design.Log loaded from ant loader (parentFirst)
+Class net.sf.antcontrib.design.VerifyDesign loaded from ant loader (parentFirst)
+ +Datatype verifydesign net.sf.antcontrib.design.VerifyDesign
+ +Datatype for net.sf.antcontrib.logic.ForTask
+ +Datatype httpState net.sf.antcontrib.net.httpclient.HttpStateType
+ +Datatype httpClient net.sf.antcontrib.net.httpclient.HttpClientType
+ +Datatype getCookie net.sf.antcontrib.net.httpclient.GetCookieTask
+ +Datatype addCookie net.sf.antcontrib.net.httpclient.AddCookieTask
+ +Datatype clearCookies net.sf.antcontrib.net.httpclient.ClearCookiesTask
+ +Datatype addCredentials net.sf.antcontrib.net.httpclient.AddCredentialsTask
+ +Datatype clearCredentials net.sf.antcontrib.net.httpclient.ClearCredentialsTask
+ +Datatype purgeExpiredCookies net.sf.antcontrib.net.httpclient.PurgeExpiredCookiesTask
+ +Datatype postMethod net.sf.antcontrib.net.httpclient.PostMethodTask
+ +Datatype getMethod net.sf.antcontrib.net.httpclient.GetMethodTask
+ +Datatype headMethod net.sf.antcontrib.net.httpclient.HeadMethodTask
+ +Datatype importurl net.sf.antcontrib.net.URLImportTask
+Attempting to create object of type org.apache.tools.ant.helper.DefaultExecutor
+Adding reference: ant.executor
+Build sequence for target(s) `systemtest' is [compile, testcompile, systemtest]
+Complete build sequence is [compile, testcompile, systemtest, test, clean, handin, test-and-handin, eclipse, dist, runtest, runsystest, javadocs, test-report, ]
+
+compile:
+    [mkdir] Skipping /home/ydj1989/Downloads/simpleDB/bin/src because it already exists.
+Property "destdir" has not been set
+Property "srcdir" has not been set
+   [depend] Deleted 0 out of date files in 0 seconds
+fileset: Setup scanner in dir /home/ydj1989/Downloads/simpleDB/src/java with patternSet{ includes: [] excludes: [] }
+    [javac] simpledb/BufferPool.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/BufferPool.class is up to date.
+    [javac] simpledb/Catalog.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Catalog.class is up to date.
+    [javac] simpledb/Database.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Database.class is up to date.
+    [javac] simpledb/DbException.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/DbException.class is up to date.
+    [javac] simpledb/DbFile.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/DbFile.class is up to date.
+    [javac] simpledb/DbFileIterator.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/DbFileIterator.class is up to date.
+    [javac] simpledb/DbIterator.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/DbIterator.class is up to date.
+    [javac] simpledb/Debug.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Debug.class is up to date.
+    [javac] simpledb/Field.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Field.class is up to date.
+    [javac] simpledb/HeapFile.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/HeapFile.class is up to date.
+    [javac] simpledb/HeapFileEncoder.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/HeapFileEncoder.class is up to date.
+    [javac] simpledb/HeapFileIterator.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/HeapFileIterator.class is up to date.
+    [javac] simpledb/HeapPage.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/HeapPage.class is up to date.
+    [javac] simpledb/HeapPageId.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/HeapPageId.class is up to date.
+    [javac] simpledb/HeapPageIterator.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/HeapPageIterator.class is up to date.
+    [javac] simpledb/IntField.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/IntField.class is up to date.
+    [javac] simpledb/LogFile.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/LogFile.class is up to date.
+    [javac] simpledb/Page.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Page.class is up to date.
+    [javac] simpledb/PageId.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/PageId.class is up to date.
+    [javac] simpledb/Permissions.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Permissions.class is up to date.
+    [javac] simpledb/Predicate.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Predicate.class is up to date.
+    [javac] simpledb/RecordId.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/RecordId.class is up to date.
+    [javac] simpledb/SeqScan.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/SeqScan.class is up to date.
+    [javac] simpledb/SimpleDb.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/SimpleDb.class is up to date.
+    [javac] simpledb/StringField.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/StringField.class is up to date.
+    [javac] simpledb/TransactionAbortedException.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/TransactionAbortedException.class is up to date.
+    [javac] simpledb/TransactionId.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/TransactionId.class is up to date.
+    [javac] simpledb/Tuple.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Tuple.class is up to date.
+    [javac] simpledb/TupleDesc.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/TupleDesc.class is up to date.
+    [javac] simpledb/TupleIterator.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/TupleIterator.class is up to date.
+    [javac] simpledb/Type.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Type.class is up to date.
+    [javac] simpledb/Utility.java omitted as /home/ydj1989/Downloads/simpleDB/bin/src/simpledb/Utility.class is up to date.
+fileset: Setup scanner in dir /home/ydj1989/Downloads/simpleDB/src with patternSet{ includes: [bin/*.sh] excludes: [] }
+     [copy] No sources found.
+     [copy] No sources found.
+
+testcompile:
+    [mkdir] Skipping /home/ydj1989/Downloads/simpleDB/bin/test because it already exists.
+Property "destdir" has not been set
+Property "srcdir" has not been set
+   [depend] Deleted 0 out of date files in 0 seconds
+fileset: Setup scanner in dir /home/ydj1989/Downloads/simpleDB/test with patternSet{ includes: [] excludes: [] }
+    [javac] simpledb/CatalogTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/CatalogTest.class is up to date.
+    [javac] simpledb/HeapFileReadTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/HeapFileReadTest.class is up to date.
+    [javac] simpledb/HeapPageIdTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/HeapPageIdTest.class is up to date.
+    [javac] simpledb/HeapPageReadTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/HeapPageReadTest.class is up to date.
+    [javac] simpledb/RecordIdTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/RecordIdTest.class is up to date.
+    [javac] simpledb/TestUtil.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/TestUtil.class is up to date.
+    [javac] simpledb/TupleDescTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/TupleDescTest.class is up to date.
+    [javac] simpledb/TupleTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/TupleTest.class is up to date.
+    [javac] simpledb/systemtest/ScanTest.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/systemtest/ScanTest.class is up to date.
+    [javac] simpledb/systemtest/SimpleDbTestBase.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/systemtest/SimpleDbTestBase.class is up to date.
+    [javac] simpledb/systemtest/SystemTestUtil.java omitted as /home/ydj1989/Downloads/simpleDB/bin/test/simpledb/systemtest/SystemTestUtil.class is up to date.
+
+systemtest:
+    [junit] Found /usr/share/ant/lib/junit.jar
+    [junit] Found /usr/share/java/ant-launcher-1.7.1.jar
+    [junit] Found /usr/share/ant/lib/ant.jar
+    [junit] Found /usr/share/ant/lib/ant-junit.jar
+fileset: Setup scanner in dir /home/ydj1989/Downloads/simpleDB/bin/test with patternSet{ includes: [simpledb/systemtest/*Test.class] excludes: [] }
+    [junit] Implicitly adding /usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar to CLASSPATH
+dropping /home/ydj1989/Downloads/simpleDB/lib/zql.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jline-0.9.94.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-core-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-filter-compression-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-api-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-log4j12-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/log4j-1.2.17.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jzlib-1.0.7.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/javassist-3.16.1-GA.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/zql.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jline-0.9.94.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-core-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-filter-compression-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-api-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-log4j12-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/log4j-1.2.17.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jzlib-1.0.7.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/javassist-3.16.1-GA.jar from path as it doesn't exist
+Applying assertions
+adding assertion -ea
+dropping /home/ydj1989/Downloads/simpleDB/lib/zql.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jline-0.9.94.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-core-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-filter-compression-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-api-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-log4j12-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/log4j-1.2.17.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jzlib-1.0.7.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/javassist-3.16.1-GA.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/zql.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jline-0.9.94.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-core-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-filter-compression-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-api-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-log4j12-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/log4j-1.2.17.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jzlib-1.0.7.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/javassist-3.16.1-GA.jar from path as it doesn't exist
+Applying assertions
+adding assertion -ea
+    [junit] Executing '/usr/lib/jvm/java-6-openjdk/jre/bin/java' with arguments:
+    [junit] '-Xmx128M'
+    [junit] '-classpath'
+    [junit] '/home/ydj1989/Downloads/simpleDB/bin/src:/home/ydj1989/Downloads/simpleDB/bin/test:/home/ydj1989/Downloads/simpleDB/lib/junit-4.5.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar'
+    [junit] '-ea'
+    [junit] 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+    [junit] 'simpledb.systemtest.ScanTest'
+    [junit] 'filtertrace=true'
+    [junit] 'haltOnError=false'
+    [junit] 'haltOnFailure=true'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+    [junit] 'showoutput=false'
+    [junit] 'outputtoformatters=true'
+    [junit] 'logtestlistenerevents=true'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+    [junit] 'crashfile=/home/ydj1989/Downloads/simpleDB/junitvmwatcher3452599736786461133.properties'
+    [junit] 'propsfile=/home/ydj1989/Downloads/simpleDB/junit2438855229150083982.properties'
+    [junit] 
+    [junit] The ' characters around the executable and arguments are
+    [junit] not part of the command.
+dropping /home/ydj1989/Downloads/simpleDB/lib/zql.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jline-0.9.94.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-core-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-filter-compression-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-api-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-log4j12-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/log4j-1.2.17.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jzlib-1.0.7.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/javassist-3.16.1-GA.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/zql.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jline-0.9.94.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-core-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/mina-filter-compression-2.0.4.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-api-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/slf4j-log4j12-1.6.1.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/log4j-1.2.17.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/jzlib-1.0.7.jar from path as it doesn't exist
+dropping /home/ydj1989/Downloads/simpleDB/lib/javassist-3.16.1-GA.jar from path as it doesn't exist
+Execute:Java13CommandLauncher: Executing '/usr/lib/jvm/java-6-openjdk/jre/bin/java' with arguments:
+'-Xmx128M'
+'-classpath'
+'/home/ydj1989/Downloads/simpleDB/bin/src:/home/ydj1989/Downloads/simpleDB/bin/test:/home/ydj1989/Downloads/simpleDB/lib/junit-4.5.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar'
+'-ea'
+'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+'simpledb.systemtest.ScanTest'
+'filtertrace=true'
+'haltOnError=false'
+'haltOnFailure=true'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+'showoutput=false'
+'outputtoformatters=true'
+'logtestlistenerevents=true'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+'crashfile=/home/ydj1989/Downloads/simpleDB/junitvmwatcher3452599736786461133.properties'
+'propsfile=/home/ydj1989/Downloads/simpleDB/junit2438855229150083982.properties'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [junit] Running simpledb.systemtest.ScanTest
+    [junit] Testsuite: simpledb.systemtest.ScanTest
+    [junit] junit.framework.TestListener: tests to run: 3
+    [junit] junit.framework.TestListener: startTest(testSmall)
+    [junit] junit.framework.TestListener: addError(testSmall, expected tuples does not contain: 83 268435463 -788529083: 0/1///[[21264, 2001, 17777]])
+    [junit] junit.framework.TestListener: endTest(testSmall)
+    [junit] junit.framework.TestListener: startTest(testRewind)
+    [junit] junit.framework.TestListener: endTest(testRewind)
+    [junit] junit.framework.TestListener: startTest(testCache)
+    [junit] junit.framework.TestListener: endTest(testCache)
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Time elapsed: 0.447 sec
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Time elapsed: 0.447 sec
+    [junit] 
+    [junit] Testcase: testSmall took 0.126 sec
+    [junit] 	Caused an ERROR
+    [junit] expected tuples does not contain: 83 268435463 -788529083: 0/1///[[21264, 2001, 17777]]
+    [junit] java.lang.AssertionError: expected tuples does not contain: 83 268435463 -788529083: 0/1///[[21264, 2001, 17777]]
+    [junit] 	at simpledb.systemtest.SystemTestUtil.matchTuples(SystemTestUtil.java:131)
+    [junit] 	at simpledb.systemtest.SystemTestUtil.matchTuples(SystemTestUtil.java:108)
+    [junit] 	at simpledb.systemtest.SystemTestUtil.matchTuples(SystemTestUtil.java:101)
+    [junit] 	at simpledb.systemtest.ScanTest.validateScan(ScanTest.java:32)
+    [junit] 	at simpledb.systemtest.ScanTest.testSmall(ScanTest.java:43)
+    [junit] 
+    [junit] Testcase: testRewind took 0.002 sec
+    [junit] Testcase: testCache took 0.305 sec
